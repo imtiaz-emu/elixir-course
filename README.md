@@ -1,6 +1,6 @@
 ### Intro
 
-Few samples coding examples for Elixir and Phoenix. Recently, started to complete the **** course in Udemy. [Here is the link](https://www.udemy.com/course/the-complete-elixir-and-phoenix-bootcamp-and-tutorial/). 
+Few samples coding examples for Elixir and Phoenix. Recently, started to complete the **The Complete Elixir and Phoenix Bootcamp** course in Udemy. [Here is the link](https://www.udemy.com/course/the-complete-elixir-and-phoenix-bootcamp-and-tutorial/). 
 
 The examples showed in the course is added here. 
 
