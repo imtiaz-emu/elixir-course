@@ -3,7 +3,7 @@
 <ul class="collection">
   <%= for topic <- @topics do %>
     <li class="collection-item">
-      <%= topic.title %>
+      <%= link topic.title, to: Routes.topic_path(@conn, :show, topic) %>
       
       <%= if @conn.assigns.user && @conn.assigns.user.id == topic.user_id do %>
         <div class="right">
@@ -19,4 +19,4 @@
   <%= link to: Routes.topic_path(@conn, :new), class: "btn-floating btn-large red waves-effect waves-light" do %>
     <i class="material-icons">add</i>
   <% end %>
-<div>
+</div>
